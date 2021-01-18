@@ -1,0 +1,55 @@
+Neural Network Tools for STM32 v1.2.0 (AI tools v5.0.0)
+Created date       : 2021-01-18 14:38:18
+
+Exec/report summary (generate dur=0.461s err=0)
+------------------------------------------------------------------------------------------------------------------------
+model file         : C:\Users\miken\OneDrive\Documents\python_scripte\led_monitoring.h5
+type               : keras (keras_dump)
+c_name             : led_monitoring_network
+compression        : None
+quantize           : None
+L2r error          : NOT EVALUATED
+workspace dir      : C:\Users\miken\AppData\Local\Temp\mxAI_workspace1387216753580003461284881830432046
+output dir         : C:\Users\miken\.stm32cubemx\stm32ai_output
+
+model_name         : led_monitoring
+model_hash         : 91438f89cc546d8cde808ace7c337963
+input              : input_0 [2 items, 8 B, ai_float, FLOAT32, (2,)]
+input (total)      : 8 B
+output             : activation_58 [3 items, 12 B, ai_float, FLOAT32, (3,)]
+output (total)     : 12 B
+params #           : 291 items (1.14 KiB)
+macc               : 333
+weights (ro)       : 1,164 (1.14 KiB) 
+activations (rw)   : 204 (204 B) 
+ram (total)        : 224 (224 B) = 204 + 8 + 12
+
+------------------------------------------------------------------------------------------------------------------------
+id  layer (type)                 output shape      param #     connected to             macc           rom                
+------------------------------------------------------------------------------------------------------------------------
+0   input_0 (Input)              (2,)                                                                                     
+    dense_57 (Dense)             (48,)             144         input_0                  96             576                
+------------------------------------------------------------------------------------------------------------------------
+1   activation_57 (Nonlinearity) (48,)                         dense_57                 48                                
+------------------------------------------------------------------------------------------------------------------------
+2   dense_58 (Dense)             (3,)              147         activation_57            144            588                
+------------------------------------------------------------------------------------------------------------------------
+3   activation_58 (Nonlinearity) (3,)                          dense_58                 45                                
+------------------------------------------------------------------------------------------------------------------------
+led_monitoring p=291(1.14 KBytes) macc=333 rom=1.14 KBytes ram=204 B io_ram=20 B
+
+ 
+Complexity per-layer - macc=333 rom=1,164
+------------------------------------------------------------------------------------------------------------------------
+id      layer (type)                 macc                                    rom                                    
+------------------------------------------------------------------------------------------------------------------------
+0       dense_57 (Dense)             |||||||||||||||||||||            28.8%  ||||||||||||||||||||||||||||||   49.5% 
+1       activation_57 (Nonlinearity) |||||||||||                      14.4%  |                                 0.0% 
+2       dense_58 (Dense)             |||||||||||||||||||||||||||||||  43.2%  |||||||||||||||||||||||||||||||  50.5% 
+3       activation_58 (Nonlinearity) ||||||||||                       13.5%  |                                 0.0% 
+------------------------------------------------------------------------------------------------------------------------
+
+
+Evaluation report (summary)
+--------------------------------------------------
+NOT EVALUATED

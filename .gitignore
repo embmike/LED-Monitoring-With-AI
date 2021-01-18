@@ -1,0 +1,4 @@
+#Files that git will ignore 
+Debug/
+led_monitoring_plot.png
+led_monitoring.h5
