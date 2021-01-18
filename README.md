@@ -29,7 +29,7 @@ $ conda env create -f env_tf_keras.yml
 $ conda activate tf_keras
 ```
 Open keras model and execute    
-Start Anaconda Navigator > Enviroments > choose 'tf_keras' > Home > Start Spyder IDE > Open file 'env_tf_keras.yml' > Klick on 'Run File'
+Start Anaconda Navigator > Environments > choose 'tf_keras' > Home > Start Spyder IDE > Open file 'env_tf_keras.yml' > Click on 'Run File'
 
 
 ## Important files
