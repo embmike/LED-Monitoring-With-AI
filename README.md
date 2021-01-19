@@ -6,6 +6,14 @@ The example illustrates the feasibility and procedure.
 For mor information read blog post http://mike-netz.biz/?p=188. You can translate the German blog post to English using Google Super Translater.
 
 
+## Important files
+- **keras_dnn_led_monitoring.py** : Keras dnn file
+- **LED_Monitoring.ioc** : STM32CubeMX file for initialization and configuration using a graphical view
+- Core/**main.c** : Main file of the program
+- X-CUBE-AI/App/**app_x-cube-ai.c** : dnn in C
+- Core/**pil_printer.c** : Debug outputs via UART-via-USB
+
+
 ## Installation and usage
 
 Install the integrated development environment for STM32 microcontrollers.    
@@ -30,14 +38,6 @@ $ conda activate tf_keras
 ```
 Open keras model and execute    
 Start Anaconda Navigator > Environments > choose 'tf_keras' > Home > Start Spyder IDE > Open file 'env_tf_keras.yml' > Click on 'Run File'
-
-
-## Important files
-- keras_dnn_led_monitoring.py : Keras dnn file
-- LED_Monitoring.ioc : STM32CubeMX file for initialization and configuration using a graphical view
-- Core/main.c : Main file of the program
-- X-CUBE-AI/App/app_x-cube-ai.c : dnn in C
-- Core/pil_printer.c : Debug outputs via UART-via-USB
 
 
 ## Licence
