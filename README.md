@@ -3,7 +3,7 @@
 With the expansion package STM32Cube.AI, STMicroelectronics enables a neural network to be implemented on a microcontroller. In this example software, a DNN (Deep Neuronal Network) is created with Keras/Tensorflow, then imported into the C project using STM32Cube.AI and then executed on the Nucleo-F767ZI test board.
    
 The example illustrates the feasibility and procedure.   
-For mor information read blog post http://mike-netz.biz/?p=188. You can translate the German blog post to English using Google Super Translater.
+For mor information read blog post http://mike-netz.biz/?p=188. You can translate the German blog post to English using [Google Super Translator](https://chrome.google.com/webstore/detail/super-translator/gndffjifnojlkfkbeejiojebebdbgekd).
 
 
 ## Important files
