@@ -1,4 +1,4 @@
-# LED-Monitoring-With-AI
+# State-Monitoring-With-AI
 
 With the expansion package STM32Cube.AI, STMicroelectronics enables a neural network to be implemented on a microcontroller. In this example software, a DNN (Deep Neuronal Network) is created with Keras/Tensorflow, then imported into the C project using STM32Cube.AI and then executed on the Nucleo-F767ZI test board.
    
